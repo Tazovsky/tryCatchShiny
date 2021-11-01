@@ -1,18 +1,19 @@
 Package: tryCatchShiny
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
+Title: Politely show error in modal window instead of crashint Shiny app
+Version: 0.2.9000
+Author: Kamil Foltyński
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
   shiny,
   shinyalert,
-  logger
+  logger,
+  methods
 Suggests:
   shinydashboard
 RoxygenNote: 7.1.1

@@ -3,7 +3,7 @@
 #' Open modal box on error in Shiny application.
 #' \strong{Requires \link[shinyalert]{useShinyalert}} - otherwise modal won't pop up.
 #'
-#' @param expr
+#' @param expr expression
 #'
 #' @inheritParams on_error
 #' @inheritParams shinyalert::shinyalert
@@ -32,6 +32,8 @@ tryCatchShiny <- function(expr, stop_with_req = TRUE, title = "Error", size = "l
 #' @param ... optional arguments for \link[shinyalert]{shinyalert}
 #'
 #' @inheritParams shinyalert::shinyalert
+#'
+#' @importFrom methods is
 #'
 #' @export
 #'

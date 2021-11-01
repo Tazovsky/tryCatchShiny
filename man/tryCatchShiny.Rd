@@ -7,7 +7,7 @@
 tryCatchShiny(expr, stop_with_req = TRUE, title = "Error", size = "l", ...)
 }
 \arguments{
-\item{expr}{}
+\item{expr}{expression}
 
 \item{stop_with_req}{logical (default \code{TRUE}). If \code{TRUE}, then
 stop shiny code execution with \link[shiny]{req}}
