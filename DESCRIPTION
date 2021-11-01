@@ -1,11 +1,10 @@
 Package: tryCatchShiny
 Type: Package
-Title: Politely show error in modal window instead of crashint Shiny app
+Title: Politely show error in modal window instead of crashing Shiny app
 Version: 0.2.9000
 Author: Kamil Foltyński
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Kamil Foltyński <kamil@foltynski.com>
+Description: Politely show error in modal window instead of crashing Shiny app.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
