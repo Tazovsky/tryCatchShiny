@@ -22,5 +22,5 @@ and add `shinyalert::useShinyalert()` to UI part of your Shiny app.
 
 ## Examples
 
-Run `tryCatchShiny::run_example("01-shiny-app")` to run example Shiny app.
+Run example Shiny app with `tryCatchShiny::run_example("01-shiny-app")`.
 
