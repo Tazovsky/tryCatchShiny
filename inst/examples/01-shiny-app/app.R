@@ -1,7 +1,7 @@
 library(shinydashboard)
 library(tryCatchShiny)
 
-options(shiny.error = recover_on_error)
+options(shiny.error = tryCatchShiny::recover_on_error)
 
 header <- dashboardHeader(
   title = "tryCatchShiny app"
@@ -44,7 +44,7 @@ server <- function(input, output, session) {
 
   observeEvent(input$btn2, {
 
-      stop("!!! Test Error #w !!!")
+      stop("!!! Test Error #2 !!!")
 
   })
 

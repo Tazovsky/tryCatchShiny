@@ -1,6 +1,6 @@
 #' run_example
 #'
-#' Run exapmle shiny app
+#' Runs example shiny app.
 #'
 #' @param example_dir example name
 #'
