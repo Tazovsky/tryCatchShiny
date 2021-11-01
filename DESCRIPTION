@@ -1,13 +1,12 @@
 Package: tryCatchShiny
 Type: Package
 Title: Politely show error message in modal window
-Version: 0.2.0
+Version: 0.2.1
 Author: Kamil Foltyński
-Maintainer: Kamil Foltyński <kamil@foltynski.com>
+Maintainer: Kamil Foltynski <kamil@foltynski.com>
 Description: Politely show error message in modal window instead of crashing Shiny app.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Imports:
   shiny,
   shinyalert,
